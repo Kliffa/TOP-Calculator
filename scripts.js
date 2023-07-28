@@ -54,10 +54,11 @@ function updateDisplay(displayResult=false){
 
 const clearButton = document.querySelector(".clear");
 clearButton.addEventListener('click',()=>{
-    a="0";
+    a="";
     b="";
     operator ="";
     updateDisplay();
+    document.querySelector(".display").textContent="0";
 })
 const equalsButton = document.querySelector(".equals");
 equalsButton.addEventListener('click',()=>{

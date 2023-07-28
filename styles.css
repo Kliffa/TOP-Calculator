@@ -11,7 +11,8 @@
 }
 .num,
 .operation,
-.clear{
+.clear,
+.equals{
     flex:1 1 25%;
     height: 75px;
     margin: 5px ;
@@ -46,7 +47,8 @@ button{
     background-color: darkgray;
     color: azure;
 }
-.operation{
+.operation,
+.equals{
     background-color: orange;
     color: azure;
 }
